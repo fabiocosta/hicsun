@@ -17,8 +17,8 @@ export default {
             type: 'string',
         },
         {
-            name: 'produto',
-            title: 'Produto',
+            name: 'product',
+            title: 'Product',
             type: 'string',
         },
         {
@@ -47,8 +47,8 @@ export default {
             type: 'string',
         },
         {
-            name: 'desconto',
-            title: 'Desconto',
+            name: 'discount',
+            title: 'discount',
             type: 'string',
         },
         {

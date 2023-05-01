@@ -1,41 +1,40 @@
 export default {
-    name: 'produto',
-    title: 'Produto',
-    type: 'document',
-    fields: [
-        {
-            name: 'imagem',
-            title: 'Imagem',
-            type: 'array',
-            of: [{ type: 'image'}],
-            options: {
-                hotspot: true,
-            }
-        },
-        {
-            name: 'nome',
-            title: 'Nome',
-            type: 'string'
-        },
-        {
-            name: 'slug',
-            title: 'slug',
-            type: 'slug',
-            options: {
-                source: 'name',
-                maxLength: 90,
-            }
-        },
-        {
-            name: 'preco',
-            title: 'Preço',
-            type: 'number',
-        },
-        {
-            name: 'detalhes',
-            title: 'Detalhes',
-            type: 'string'
-        }
-
-    ]
+  name: 'product',
+  title: 'Product',
+  type: 'document',
+  fields: [
+    {
+      name: 'image',
+      title: 'Image',
+      type: 'array',
+      of: [{ type: 'image' }],
+      options: {
+        hotspot: true,
+      }
+    },
+    { 
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+    },
+    { 
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'name',
+        maxLength: 90,
+      }
+    },
+    { 
+      name: 'price',
+      title: 'Price',
+      type: 'number',
+    },
+    { 
+      name: 'details',
+      title: 'Details',
+      type: 'string',
+    }
+  ]
 }
