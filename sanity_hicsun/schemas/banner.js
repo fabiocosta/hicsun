@@ -47,8 +47,8 @@ export default {
             type: 'string',
         },
         {
-            name: 'discount',
-            title: 'discount',
+            name: 'desconto',
+            title: 'Desconto',
             type: 'string',
         },
         {
